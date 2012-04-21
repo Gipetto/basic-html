@@ -20,7 +20,7 @@ Basic document structrual elements and using those elements to divide up a docum
 
 ## 04 HTML5 Structure
 
-A quick look at the new structural elements introduced in HTML5.
+A quick look at some of the new structural elements introduced in HTML5.
 
 
 ## 05 Entities
@@ -42,8 +42,16 @@ The resume with basic CSS styling applied to control content display, size and c
 
 Applying CSS to modify document layout and position elements.
 
-
-## Going more advanced
-
 For an an example of using HTML5, CSS3 & JavaScript to create a more complete resume check out:
 https://github.com/Gipetto/resume
+
+
+## Going forward
+
+Extra reading:
+
+- HTML & CSS, from beginner to advanced: http://htmldog.com/
+- HTML5: http://html5doctor.com/
+- HTML5 Advanced: http://diveintohtml5.info/
+- Browser compatability: http://www.quirksmode.org/
+- Entities Reference: - http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
