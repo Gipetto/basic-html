@@ -1,0 +1,137 @@
+/* Typography */
+html {
+	/* a few browser specific hacks to maintain font
+	size consistency while maintaining flexibility */
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	font-size: 14px;
+	/* an em is equal to the current font size, so 
+	this gives every element on the page a line height 
+	of 1.5x the size of the text height */
+	line-height: 1.5em;
+	font-family: helvetica, arial, sans-serif;
+}
+
+ul, 
+ol {
+	padding-left: 1.5em;
+}
+
+h1,
+h2,
+h3 {
+	font-family: georgia, times, serif;
+}
+
+/* Layout */
+#main {
+	/* center the div */
+	margin: 30px auto;
+	width: 940px;
+}
+
+#header {
+	margin-bottom: 70px;
+}
+
+#content {
+	/* forces height on this container since the 
+	main content items are floats. */
+	overflow: auto;
+	/* for more on floats see: 
+	http://designshack.net/articles/css/everything-you-never-knew-about-css-floats/ */
+}
+
+#footer {
+	color: #666;
+	margin-top: 40px;
+	text-align: center;
+}
+
+/* target only the divs that are immediate
+children of #content & #sidebar */
+#content-body>div {
+	margin-top: 40px;
+}
+#sidebar>div {
+	margin-top: 50px;
+}
+
+/* target the divs inside #content & #sidebar
+that are the first children of the parent */
+#content-body>div:first-child,
+#sidebar>div:first-child {
+	margin-top: 0;
+}
+
+/* size & position the two main 
+page content areas */
+#content-body {
+	float: right;
+	width: 65%;
+}
+#sidebar {
+	float: left;
+	width: 30%;
+}
+
+/* Section Specific Changes */
+#header p {
+	margin: 0;
+}
+#header #contact {
+	margin-top: 1em;
+}
+#header a {
+	color: gray;
+	text-decoration: none;
+}
+#header a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+/* remove bullets from the list 
+items in the education uls */
+#education ul {
+	list-style: none;
+	padding-left: 0;
+}
+#education ul li {
+	margin-top: 1.2em;
+}
+
+.section h2 {
+	color: #003399;
+	margin: 0;
+}
+
+.section h3 {
+	font-size: 1.35em;
+}
+
+#content-body .section-content {
+	margin-left: 20px;
+}
+
+.job-position {
+	margin-bottom: 30px;
+}
+
+.section-content h3 {
+	margin-bottom: 0;
+}
+
+.dates {
+	font-size: 0.9em;
+	font-style: italic;
+	margin: 0;
+}
+.degree {
+	display: block;
+	font: bold 1.2em georgia, times, serif;
+}

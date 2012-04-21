@@ -1,0 +1,45 @@
+/* Typography */
+body {
+	/* an em is equal to the current font size, so this gives every element
+	on the page a line height of 1.5x the size of the text height */
+	line-height: 1.5em;
+	font-family: helvetica, arial, sans-serif;
+}
+
+ul, 
+ol {
+	padding-left: 1.5em;
+}
+
+h1,
+h2,
+h3 {
+	font-family: georgia, times, serif;
+}
+
+/* Layout */
+#main {
+	width: 940px;
+	/* center the div */
+	margin: 0 auto;
+}
+
+#objective, 
+#current-position,
+#work-history,
+#education {
+	margin-top: 30px;
+}
+
+/* Section Specific Changes */
+#header p {
+	margin: 0;
+}
+#header a {
+	color: gray;
+	text-decoration: none;
+}
+#header a:hover {
+	color: black;
+	text-decoration: underline;
+}

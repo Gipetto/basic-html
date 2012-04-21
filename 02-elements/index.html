@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic HTML Elements</title>
+	</head>
+	<body>
+		<!-- headings -->
+		<h1>An important heading</h1>
+		
+		<h2>A less important heading</h2>
+		
+		<h6>I'm the least important heading</h6>
+		
+		<!-- paragraph -->
+		<p>Hello World, I'm a paragraph.
+			White space is inconsequential after the first space character.</p>
+			
+		<p>To forcefully break a line you want to use the &lt;br /&gt; element.<br /> Like so.</p>
+		
+		<!-- bold and italic -->
+		<p><i>&lt;i&gt; was italic, now for text in an "alternate voice", such as transliterated foreign words, 
+			technical terms, and typographically italicized text</i></p>
+		
+		<p><b>&lt;b&gt; was bold, now for "stylistically offset" text, such as keywords and typographically 
+			emboldened text</b></p>
+		
+		<!-- emphasis -->
+		<p><em>&lt;em&gt; was emphasis, now for stress emphasis, i.e., something you'd pronounce differently</em></p>
+		
+		<p><strong>&lt;strong&gt; was for stronger emphasis, now for strong importance, basically the same thing 
+			(stronger emphasis or importance is now indicated by nesting)</strong></p>
+					
+		<!-- images -->
+		<img src="img/moose.jpg" width="405" height="242" alt="Kitten!" />
+		
+		<!-- links -->
+		<p><a href="http://www.w3.org/MarkUp/Guide/">Getting started with HTML</a>.</p>
+		
+		<!-- blockquotes -->
+		<blockquote cite="http://reference.sitepoint.com/html/blockquote">The blockquote element is a mechanism for marking up a block of text quoted from a person or another document or source. It may be just a few lines, or it may contain several paragraphs (which you’d mark up using nested paragraph elements).</blockquote>
+		
+		<!-- unordered lists -->
+		<ul>
+			<li>Unordered list item 1</li>
+			<li>Unordered list item 2</li>
+			<li>A møøse once bit my sister.</li>
+		</ul>
+		
+		<!-- ordered lists -->
+		<ol>
+			<li>Ordered list item 1</li>
+			<li>Ordered list item 2</li>
+			<li>Mynd you, møøse bites Kan be pretty nasti.</li>
+		</ol>
+		
+		<!-- definition lists -->
+		<dl>
+			<dt>Definition Term</dt>
+			<dd>Definition description. I am content about the definition term.</dd>
+			<dt>Another Definition Term</dt>
+			<dd>Another definition description. I smell of elderberries.</dd> 
+		</dl>
+		
+		<!-- tables -->
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Table header 1</th>
+					<th>Table header 2</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Table cell 1</td>
+					<td>Table cell 2</td>
+				</tr>
+				<tr>
+					<td>Table cell 3</td>
+					<td>Table cell 4</td>
+				</tr>
+				<tr>
+					<td colspan="2">I span 2 columns!</td>
+				</tr>
+				<tr>
+					<td rowspan="2">I span 2 rows</td>
+					<td>I'm just one cell.</td>
+				</tr>
+				<tr>
+					<td>I'm by myself.</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<!-- preformatted text -->
+		<pre>
+Shrubbery-quested,
+	Camelot's silliness skipped.
+  Swallows hold the key.
+		</pre>
+		
+		<!-- code -->
+		<p>We like code. <code>$this->isCode('is inline');</code></p>
+		
+		<code><pre>
+// look at the bones!
+$holyHandGrenade->pullPin();
+while ($holyHandGrenade->count() &lt; 3) {
+	echo $i;
+}
+$holyHandGrenade->throw();
+		</pre></code>
+		
+		<!-- links to anchors -->
+		<p><a href="#top">Back to the top</a>.</p>
+	</body>
+</html>

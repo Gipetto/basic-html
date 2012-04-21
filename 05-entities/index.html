@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>My HTML Document</title>
+	</head>
+	<body>
+		<h1>Entities</h1>
+		<p>There are a few special entities that have special meaning in HTML that should always be encoded:</p>
+		
+		<ul>
+			<li>The ampersand: &amp; (<code>&amp;amp;</code>)</li>
+			<li>Less than and greater than: &lt; and &gt; (<code>&amp;lt;</code> and <code>&amp;gt;</code>)</li>
+		</ul>
+		
+		<p>There are also other entities that are special to XML and that should always be encoded in XML documents:</p>
+		<!-- note: RSS is XML -->
+		
+		<ul>
+			<li>Double quotes: &quot; (<code>&amp;quot;</code>)</li>
+			<li>Single quotes: &apos; (<code>&amp;apos;</code>)</li>
+		</ul>
+		
+		<p><i>With XML it is safer to use numbered entities if entities are used above native UTF-8 characters since older XML parsers have limited support for named entities where most old and new XML parsers support numbered entities without issue.</i></p>
+		 		 
+		<h2>A short list of other helpful entities:</h2>
+		<p><i>Named entities are limited to a small subset of Unicode characters, but numbered entities can specify any character.</i></p>
+		
+		
+		<table border="1" cellspacing="0" cellpadding="5">
+			<thead>
+				<th>Entity (named)</th>
+				<th>Entity (numeric)</th>
+				<th>Output</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td><code>&amp;quot;</code></td>
+					<td><code>&amp;#034;</code>
+					<td>&quot;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;apos;</code></td>
+					<td><code>&amp;#039;</code>
+					<td>&apos;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;lt;</code></td>
+					<td><code>&amp;#060;</code>
+					<td>&lt;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;gt;</code></td>
+					<td><code>&amp;#062;</code>
+					<td>&gt;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;nbsp;</code></td>
+					<td><code>&amp;#160;</code>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;cent;</code></td>
+					<td><code>&amp;#162</code></td>
+					<td>&cent;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;copy;</code></td>
+					<td><code>&amp;#169;</code>
+					<td>&copy;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;deg;</code></td>
+					<td><code>&amp;#176;</code>
+					<td>&deg;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;reg;</code></td>
+					<td><code>&amp;#174;</code>
+					<td>&reg;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;reg;</code></td>
+					<td><code>&amp;#174;</code>
+					<td>&reg;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;laquo;</code></td>
+					<td><code>&amp;#171;</code>
+					<td>&laquo;</td>
+				</tr>
+				<tr>
+					<td><code>&amp;raquo;</code></td>
+					<td><code>&amp;#187;</code>
+					<td>&raquo;</td>
+				</tr>				
+				<tr>
+					<td><code>&amp;times;</code></td>
+					<td><code>&amp;#215;</code>
+					<td>&times;</td>
+				</tr>
+				
+			</tbody>
+		</table>
+		
+		<p>For a complete list of XML &amp; HTML entities check out the <a href="http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Predefined_entities_in_XML">WikiPedia article on entities</a>.</p>
+	</body>
+</html>
