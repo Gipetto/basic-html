@@ -42,7 +42,7 @@ The resume with basic CSS styling applied to control content display, size and c
 
 Applying CSS to modify document layout and position elements.
 
-For an an example of using HTML5, CSS3 & JavaScript to create a more complete resume check out:
+For an example of using HTML5, CSS3 & JavaScript to create a more complete resume check out:
 https://github.com/Gipetto/resume
 
 
